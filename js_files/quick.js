@@ -33,7 +33,7 @@ async function partitionLomuto(ele, l, r){
     swap(ele[i], ele[r]); // pivot height one
     console.log(`i = ${i}`, typeof(i));
     // color
-    ele[r].style.background = 'pink';
+    //ele[r].style.background = 'pink';
     ele[i].style.background = 'green';
 
     // pauseChamp
